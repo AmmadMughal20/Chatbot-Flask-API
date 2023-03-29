@@ -1,0 +1,122 @@
+{
+  "intents": [
+      {
+          "tag": "greetings",
+          "patterns": [
+              "Hi",
+              "Hello",
+              "How are you",
+              "Hey",
+              "Is anyone there?",
+              "Good day"
+          ],
+          "responses": [
+              "Hello!",
+              "Hey",
+              "Hi there!",
+              "Hi there, How can I help?",
+              "Hi there , what can I do for you?",
+              "Hello, How may I help you?",
+              "Hello! What can I assist you with?",
+              "How may I be of assistance to you today?",
+              "Hi there! How can I be of help to you?",
+              "How may I assist you at this time?",
+              "Hello! What can I do to help you today?",
+              "What can I help you with today?",
+              "Hello, how may I assist you right now?",
+              "Hi! What can I do to help you out?"
+          ]
+      },
+      {
+          "tag": "smart meter",
+          "patterns": [
+              "What is smart meter?",
+              "Features of smart meter",
+              "Smart meter?",
+              "How smart meter works?",
+              "Function of smart meter?",
+              "Working of a smart meter?"
+          ],
+          "responses": [
+              "Smart meter is a 3-phase GSM based energy meter. It has capability to measure different consumption parameters according to the encoded schedule by the manufacturer. It temporarily stores the consumption details and sends them to other system through GSM to save permanently.",
+              "A 3-phase GSM-powered energy meter known as a 'Smart Meter' has the ability to measure various consumption parameters as per the manufacturer's programmed schedule. It temporarily retains consumption data and utilizes GSM technology to transmit the information to another system for permanent storage.",
+              "The 3-phase 'Smart Meter,' which operates on GSM technology, can measure different consumption parameters according to the manufacturer's encoded schedule. It temporarily holds on to the data and then transmits it to another system through GSM for permanent preservation.",
+              "By utilizing GSM technology, the 3-phase 'SmartMeter' can gauge a variety of consumption parameters as per the manufacturer's programmed timetable. It retains the data on a temporary basis before transmitting it through GSM to a different system for permanent storage.",
+              "The 3-phase 'Smart Meter' utilizes GSM technology to measure multiple consumption parameters according to the manufacturer's predetermined schedule. The meter temporarily stores the data and then uses GSM to send it to another system for permanent preservation."
+          ]
+      },
+      {
+          "tag": "price",
+          "patterns": [
+              "What is the price of smart meter?",
+              "Price of smart meter",
+              "Smart meter price?",
+              "Charges of smart meter?",
+              "Smart meter charges?",
+              "Cost of Smart meter",
+              "Smart meter cost?"
+          ],
+          "responses": [
+              "Smart Meter (right now available for only 3-phase connections) is being offered in 3 options: \n1. One time payment of PKR 50,000/-. \n2. 3 months installments (PKR 18,000/- per month). \n3. 6 months installments (PKR 10,000/- per month).",
+              "Currently, the 'Smart Meter' is solely available for 3-phase connections, and it is available in three different options: \n1. A one-time payment of PKR 50,000/-.\n2. Three monthly installments of PKR 18,000/-.\n3. Six monthly installments of PKR 10,000/-.",
+              "At present, the 'Smart Meter' is exclusively accessible for 3-phase connections, and there are three alternatives for acquiring it: \n1. A one-time payment of PKR 50,000/-.\nThree monthly installments of PKR 18,000/-.\nSix monthly installments of PKR 10,000/-."
+          ]
+      },
+      {
+          "tag": "process",
+          "patterns": [
+              "How to get smart meter?",
+              "What is the process for obtaining a smart meter?",
+              "How can I acquire a smart meter?",
+              "Where can I get a smart meter?",
+              "What are the steps for obtaining a smart meter?",
+              "Is there a procedure for getting a smart meter?",
+              "What is the method for acquiring a smart meter?",
+              "Can you explain how to obtain a smart meter?",
+              "What is involved in getting a smart meter?",
+              "How do I get a smart meter?",
+              "What steps do I need to take to acquire a smart meter?",
+              "Process to get smart meter?",
+              "Apply for smart meter?",
+              "How to apply for smart meter?",
+              "How can I get my smart meter?"
+          ],
+          "responses": [
+              "The smart meter can be opted in 2 ways: 1. By applying through 'MEPCO Smart' App. 2. By visiting your nearest support center. After receiving your application, the MEPCO team will take a week to process your application after which your meter will be installed.",
+              "To obtain the smart meter, there are two options: apply through the 'MEPCO Smart' App or visit the nearest support center. Once you apply, the MEPCO team will take a week to process your application and install the meter.",
+              "The smart meter can be acquired by either applying through the 'MEPCO Smart' App or visiting the closest support center. After submitting your application, it will take a week for the MEPCO team to process it and install the meter.",
+              "You have two options for getting the smart meter: apply through the 'MEPCO Smart' App or go to the nearest support center. After the MEPCO team receives your application, it will take a week to process and install the meter.",
+              "There are two ways to opt for the smart meter: via the 'MEPCO Smart' App or by visiting the nearest support center. Once your application is submitted, it will take the MEPCO team a week to process it and install the meter.",
+              "To obtain the smart meter, you can choose between applying through the 'MEPCO Smart' App or visiting the nearest support center. After submitting your application, it will take one week for the MEPCO team to process and install the meter.",
+              "You can get the smart meter by either applying through the 'MEPCO Smart' App or going to the nearest support center. The MEPCO team will take one week to process your application and install the meter.",
+              "If you want to acquire the smart meter, you can either apply through the 'MEPCO Smart' App or visit the nearest support center. Once your application is received, it will take the MEPCO team one week to process it and install the meter.",
+              "There are two options for getting the smart meter: apply through the 'MEPCO Smart' App or visit the nearest support center. After your application is submitted, the MEPCO team will take one week to process it and install the meter.",
+              "To avail the smart meter, you can either use the 'MEPCO Smart' App or go to the closest support center. Once your application is received, it will take the MEPCO team one week to process it and install the meter.",
+              "If you wish to obtain the smart meter, you can either apply through the 'MEPCO Smart' App or visit the nearest support center. The MEPCO team will process your application in one week and install the meter."
+          ]
+      },
+      {
+          "tag":"goodbye",
+          "patterns":[
+              "Bye",
+              "Goodbye",
+              "See you later"
+          ],
+          "responses":[
+              "See you later, Thanks for visiting!",
+              "Have a nice day!",
+              "Bye, come back again soon!",
+              "Goodbye for now, and thank you for stopping by!",
+              "It was great to see you. Take care and thank you for visiting!",
+              "Until next time, thank you for coming by!",
+              "Have a great day and thank you for your visit!",
+              "Thank you for stopping in. See you later!",
+              "So long and thank you for visiting!",
+              "Thanks for dropping by. See you soon!",
+              "Farewell, and thank you for coming!",
+              "Take care and thank you for stopping by!",
+              "It was a pleasure to have you. Thank you for visiting and see you later!"
+          ]
+      }
+  ]
+}
